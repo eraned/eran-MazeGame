@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="610.0" prefWidth="501.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.AboutController">
+   <children>
+      <TextArea fx:id="textt" editable="false" prefHeight="610.0" prefWidth="673.0" style="-fx-border-color: lightblue;" styleClass="AboutStyle.css" text="Programmer: Eran Edri&#10;&#10;Hey!&#10;&#10; in this part we will explain to you about the behind-the-scenes of our maze game.&#10; In what way did we decide to create each Maze and which algorithms we used to solve the Maze.&#10;&#10;1.We generate our mazes with two Algorithms :&#10;   - SimpleMazeGenerator : based on building walls randomly on the board that his size intialized by the user.&#10;   - MyMazeGenerator : Starting from the start point and spread walls according prim algorithm.&#10;&#10;&#10;2.Solveing Mazes by three kinds of algorithms :&#10;  - BreadthFirstSearch&#10;  - DepthFirstSearch&#10;  - BestFirstSearch&#10;&#10;   Enjoy playing the game!!&#10;&#10;&#10;&#10;&#10;        &#10;&#10; &#10;&#10;&#10;&#10;&#10;&#10;&#10;       &#10;" visible="true" wrapText="true">
+         <font>
+            <Font name="System Italic" size="16.0"  />
+         </font></TextArea>
+   </children>
+</AnchorPane>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.HelpController">
+   <children>
+      <TextArea editable="false" prefHeight="536.0" prefWidth="734.0" styleClass="HelpStyle.css" text="&#10;If you got confused you came to the right place!&#10;&#10;Your main task is to solve the Maze that you create, a solution is to bring the character that located at the beginning smoothly to the end point.&#10;&#10;Creating the maze is accompanied by many possibilities for your choice, the form of the maze itself and the algorithm with which the labyrinth will be solved. ( Options-&gt; properties)&#10;&#10;Now that we've gone through the initial steps, you have to choose the size of the maze you want to create by inserting the number of rows and the number of columns into the cells and press &quot;Generate Maze&quot;.&#10;&#10;If you get tired and want to continue to solve the labyrinth later you can always save it and continue in the future.(File -&gt; Save)&#10;&#10;If you want to return to the maze you started in the past you can always upload it and continue playing!.(File -&gt; Load)&#10;&#10;&#10;&#10;" wrapText="true">
+         <font>
+            <Font name="System Italic" size="15.0" />
+         </font></TextArea>
+      <Label layoutX="22.0" layoutY="393.0" prefHeight="51.0" prefWidth="135.0" text="good luck!!!">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
